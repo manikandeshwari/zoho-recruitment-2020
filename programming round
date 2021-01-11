@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  int n=0,i,j,k;
+  clrscr();
+  printf("Enter the value: ");
+  scanf("%d",&n);
+  for(i=1;i<=n;i++)
+  {
+    for(j=1;j<=i;j++)
+    {
+      for(k=1;k<=j;k++)
+      {
+           printf(n);
+      }
+      printf(" ");
+      k=n-1;
+    }
+    n=n-1;
+  }
+  getch();
+  return 0;
+}
